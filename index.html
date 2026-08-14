@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Examples</title>
+</head>
+<body>
+
+    <h1>Interactive Example</h1>
+
+    <h3>Section 1 Lesson</h3>
+
+    <!--Button to Toggle Menu-->
+    <button id="menuButton">TOGGLE MENU</button>
+        <!--The menu-->
+        <ul id="menu" style="display: none;">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+
+    <!--Button to display an alert-->
+        <button id="alertButton">Show Alert</button>
+
+
+    <!--Buttons to increment and decrement the counter-->
+        <button id="incrementButton">Increment Counter</button>
+        <button id="decrementButton">Decrement Counter</button>
+
+    <!--reset button which refrsh the page-->
+        <button id="resetButton">Reset</button>
+
+        <p>counter:<span id="counter">0</span></p>
+
+    <!--Form for name input-->
+        <label for="userName">ENTER YOUR NAME:</label>
+        <input type="text" id="username" placeholder= "Complete Name">
+        <button id="greetButton">GREET ME</button>
+
+    <!--Section where the greeting will appear-->
+        <p id="greetingMessage">...</p>
+
+    <!--Button to add a new paragraph-->
+        <button id="addParagraphButton">Add Paragraph</button>
+
+    <!--Section where the new paragraph will be added-->
+        <div id="paragraphContainer">...</div>
+
+
+<!--link to external JaveScript file-->
+        <script src="js/script.js"></script>
+
+    
+</body>
+</html>
